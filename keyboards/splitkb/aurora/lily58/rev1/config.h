@@ -27,7 +27,17 @@
 #    define SPLIT_OLED_ENABLE
 #endif
 
+#define CAPSWORD_ENABLE
+
 #ifdef RGB_MATRIX_ENABLE
 #    define RGB_MATRIX_TIMEOUT 60000
-#    define ENABLE_RGB_MATRIX_SOLID_REACTIVE no
+#    define RGB_MATRIX_KEYRELEASES
+#    define RGB_MATRIX_DEFAULT_ON true // Sets the default enabled state, if none has been set
+#    define ENABLE_RGB_MATRIX_RAINBOW_MOVING_CHEVRON
+#    define ENABLE_RGB_MATRIX_SOLID_REACTIVE
+#    define ENABLE_RGB_MATRIX_STARLIGHT
 #endif
+
+#define SPLIT_TRANSPORT_MIRROR
+#define SPLIT_LAYER_STATE_ENABLE
+#define SPLIT_MODS_ENABLE 
