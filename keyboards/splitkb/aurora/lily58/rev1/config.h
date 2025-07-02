@@ -20,7 +20,6 @@
 // but can't yet be given a value
 #define SPLIT_HAND_PIN F5
 #define HOLD_ON_OTHER_KEY_PRESS
-
 // Not yet available in `info.json`
 #ifdef OLED_ENABLE
 #    define OLED_DISPLAY_128X32
